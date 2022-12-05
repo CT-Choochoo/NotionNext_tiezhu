@@ -1,7 +1,7 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
   AUTHOR: '铁柱', // 作者
-  BIO: '一个富有且贫穷的人', // 作者简介
+  BIO: '凡事相信,凡事盼望,凡事忍耐。', // 作者简介
   LINK: 'http://www.t3z4.top', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
@@ -52,11 +52,11 @@ const BLOG = {
   PREVIEW_TAG_COUNT: 16, // 首页最多展示的标签数量，0为不限制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'mail@tangly1024.com', // 邮箱
+  CONTACT_EMAIL: '304590126@qq.com', // 邮箱
   CONTACT_WEIBO: '', // 你的微博个人主页
   CONTACT_TWITTER: '', // 你的twitter个人主页
-  CONTACT_GITHUB: 'https://github.com/tangly1024', // 你的github个人主页
-  CONTACT_TELEGRAM: 'https://t.me/tangly_1024', // 你的telegram 地址 例如 https://t.me/tangly_1024
+  CONTACT_GITHUB: '', // 你的github个人主页
+  CONTACT_TELEGRAM: '', // 你的telegram 地址 例如 https://t.me/tangly_1024
   CONTACT_LINKEDIN: '', // 你的linkedIn 首页
 
 
@@ -72,10 +72,10 @@ const BLOG = {
   // 评论互动 可同时开启多个支持 GISCUS CUSDIS UTTERRANCES GITALK
 
   // giscus @see https://giscus.app/
-  COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || '', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
-  COMMENT_GISCUS_REPO_ID: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO_ID || '', // 你的Github Repo ID e.g ( 設定完 giscus 即可看到 )
+  COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || 'CT-Choochoo/NotionNext_tiezhu', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
+  COMMENT_GISCUS_REPO_ID: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO_ID || 'R_kgDOIjNHwA', // 你的Github Repo ID e.g ( 設定完 giscus 即可看到 )
   COMMENT_GISCUS_CATEGORY_ID:
-    process.env.NEXT_PUBLIC_COMMENT_GISCUS_CATEGORY_ID || '', // 你的Github Discussions 內的 Category ID ( 設定完 giscus 即可看到 )
+    process.env.NEXT_PUBLIC_COMMENT_GISCUS_CATEGORY_ID || 'Comments', // 你的Github Discussions 內的 Category ID ( 設定完 giscus 即可看到 )
   COMMENT_GISCUS_MAPPING:
     process.env.NEXT_PUBLIC_COMMENT_GISCUS_MAPPING || 'pathname', // 你的Github Discussions 使用哪種方式來標定文章, 預設 'pathname'
   COMMENT_GISCUS_REACTIONS_ENABLED:
